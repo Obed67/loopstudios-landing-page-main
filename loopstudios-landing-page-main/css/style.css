@@ -1,0 +1,149 @@
+.tête{
+    width: 100%;
+    height: 600px;
+}
+
+.logo-menu{
+    display: flex;
+}
+
+.logo{
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.nav{
+    margin-top: 60px;
+    margin-left: 380px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.lien{
+    color: hsl(0, 0%, 100%);
+}
+
+#gros{
+    font-size: 70px;
+}
+
+.cadre-header{
+    width: 590px;
+    height: 270px;
+    border: 1px solid;
+    border-color: hsl(0, 0%, 100%);
+    font-size: larger;
+    color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.cache{
+    display: flex;
+    margin-top: 145px;
+    margin-left: 120px;
+}
+
+.perso{
+    width: 285%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+/*
+.deplace{
+    padding-left: 570px;
+}
+*/
+
+.text{
+    margin-top: 280px;
+}
+
+.text2{
+    display: flex;
+}
+
+.tex2{
+    margin-top: 145px;
+    margin-left: 120px;
+}
+
+.bt{
+    margin-top: 145px;
+    margin-left: 570px;
+    width: 170px;
+    background-color: none;
+}
+
+.album1{
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.album2{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.al{
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 80px;
+    background-color: black;
+    height: 130px;
+}
+
+.fort{
+    margin-left: -33px;
+    margin-top: 20px;
+}
+
+.log{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.na{
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.fin{
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+
+/*---------------------------------------
+     RESPONSIVE STYLES              
+-----------------------------------------*/
+
+      @media screen and (max-width: 1170px) {
+      }
+  
+      @media screen and (max-width: 991px) { 
+      }
+  
+      @media only screen and (min-width: 640px) and (max-width: 767px) {
+      }
+  
+      @media screen and (max-width: 767px) {
+      }
+  
+      @media screen and (max-width: 639px) {
+        .tête{
+            background-image: url('../images/mobile/image-grid.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+      }
